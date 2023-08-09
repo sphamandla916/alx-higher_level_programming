@@ -1,7 +1,7 @@
 # Python - Hello, World
 
 ## Description
-> This repository contains scripts that are created as part of the learning objectives of programming at ALX SE programme. The emphasis is on enforcing problem solving skills through programming and other technologies. This repository contains `.c`, `.py', and Bash files created for a deeper understanding of higher level programming in Python.
+> This repository contains scripts that are created as part of the learning objectives of programming at ALX SE programme. The emphasis is on enforcing problem solving skills through programming and other technologies. This repository contains `.c`, `.py`, and Bash files created for a deeper understanding of higher level programming in Python.
 
 ## Learning Objectives
 * Why Python programming is awesome
