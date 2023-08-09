@@ -8,14 +8,18 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *store;
+	listint_t *store, *move;
 
+	if (list == NULL)
+		return (0);
 	store = list;
-	while (list != NULL)
+	move = list;
+	while (move != NULL && move->next != NULL)
 	{
-		list = list->next;
+		store = store->next;
+		move = move->next->next;
 		/* CHECK FOR CYCLE EXISTENCE */
-		if (list == store)
+		if (store == move)
 			return (1);
 	}
 	/* RETURN 0 BY DEFAULT */
